@@ -1,0 +1,23 @@
+#keyboard{
+    border: 1px solid black;
+    width: 1100px;
+    margin: 15px;
+}
+.button{
+    padding: 12px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+#text{
+    width: 1000px;
+    outline: none;
+    height: 80px;
+    resize: none;
+}
+.space{
+    padding-left: 150px;
+    padding-right: 150px;
+}
