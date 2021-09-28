@@ -1,27 +1,71 @@
-#keyboard {
-  border: 1px solid black;
-  width: 1100px;
-  margin: 15px;
+* {
+  font-family: 'Handlee', cursive;
 }
 
-.button {
-  padding: 12px;
-  margin: 5px;
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+}
+
+#keyboard {
+  border: 2px solid black;
+  width: 1100px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.button, .caps, .enter, .back, .keys1, .keys2, .keys3 {
+  font-size: 35px;
+  padding: 13px 18px 13px 18px;
+  margin: 8px 8px 8px 8px;
   background-color: black;
   color: white;
   border: none;
-  font-size: 18px;
+}
+
+.button:active, .caps:active, .enter:active, .back:active, .keys1:active, .keys2:active, .keys3:active {
+  background-color: white;
+  color: black;
 }
 
 #text {
+  border: 2px solid black;
   width: 1000px;
   outline: none;
-  height: 80px;
+  height: 180px;
   resize: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .space {
   padding-left: 150px;
   padding-right: 150px;
+}
+
+@media screen and (max-width: 800px) {
+  #keyboard {
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .button, .caps, .enter, .back, .keys1, .keys2, .keys3 {
+    font-size: 18px;
+    margin: 3px;
+    padding: 3px;
+  }
+  #text {
+    margin: 5px;
+    width: 70%;
+  }
+  * {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
